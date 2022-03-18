@@ -1,7 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: >
-      pip3 install -r "/workspace/machine-learning-prework/requirements.txt"
+      pip install -r "requirements.txt"
     command: echo 'start script'
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
@@ -16,3 +16,4 @@ image:
 vscode:
   extensions:
     - ms-toolsai.jupyter
+    - vscode.python
