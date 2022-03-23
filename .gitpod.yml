@@ -3,7 +3,8 @@ tasks:
   - init: >
       pip install -r "requirements.txt" && 
       gp open README.md
-    # command: echo 'start script'
+    command: >
+      pip install -r "requirements.txt"
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
